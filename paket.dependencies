@@ -1,0 +1,3 @@
+source "C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\"
+source https://www.myget.org/F/ni-pkgs/auth/78cc3ff9-8d9e-4bf7-b259-b89bd627972e/api/v3/index.json
+source c:\nugetlocal

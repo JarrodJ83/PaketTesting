@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{35D5C1D8-9E71-41EE-8B82-2C5239513112}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaketTesting", "PaketTesting\PaketTesting.csproj", "{AB2B81CC-AFE8-4CF1-9695-D681C29578F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaketTesting.Client", "PaketTesting.Client\PaketTesting.Client.csproj", "{0AE6D4A0-F363-4BFB-8AA5-D7890E638B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB2B81CC-AFE8-4CF1-9695-D681C29578F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2B81CC-AFE8-4CF1-9695-D681C29578F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2B81CC-AFE8-4CF1-9695-D681C29578F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2B81CC-AFE8-4CF1-9695-D681C29578F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE6D4A0-F363-4BFB-8AA5-D7890E638B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE6D4A0-F363-4BFB-8AA5-D7890E638B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE6D4A0-F363-4BFB-8AA5-D7890E638B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE6D4A0-F363-4BFB-8AA5-D7890E638B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3754E57B-39F9-4E62-966C-AE6404DB35E6}
+	EndGlobalSection
+EndGlobal

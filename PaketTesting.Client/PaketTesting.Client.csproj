@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Jarrod Johnson</Authors>
+    <Description>Testing Paket project refernece nuget dependencies</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PaketTesting\PaketTesting.csproj" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
